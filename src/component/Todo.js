@@ -36,7 +36,7 @@ export default function TodoApp() {
         boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
       }}
     >
-      <h1 style={{ textAlign: "center", color: "white" }}>Todos List</h1>
+      <h1 style={{ textAlign: "center", color: "white" }}>Todos List by tina</h1>
       <form onSubmit={addTodo} style={{ display: "flex", gap: "10px" }}>
         <input
           value={title}
